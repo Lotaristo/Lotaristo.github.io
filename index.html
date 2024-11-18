@@ -4,10 +4,9 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-
 <html>
 	<head>
-		<title>Chernyshev Alexey Portfolio</title>
+		<title>Мейер Чеслав Портфолио</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -29,19 +28,13 @@
 					<section id="banner">
 						<div class="inner">
 							
-							<h2>Chernyshev Alexey Portfolio</h2>
-							<h3>About Me</h3>
-							<p><span class="image right"><img src="images/photo2.jpg" alt="" /></span>Hello, my name is Alexey, and I have been studying data analysis for a little over a year. I am really interested in this field and constantly trying to improve myself and study something new.</p>
-							<p>In this portfolio, I have included various projects that I have worked on.</p>
-							<br></br>
-							<h3>My Skills</h3>
-							<p>While I'm by no means a professional, I am constantly trying to improve these skills and learn new ones.</p>
-							<ul>
-								<li>Python programming (NumPy, Pandas, Seaborn + Matplotlib, Dash + Plotly)</li>
-								<li>SQL (worked with MySQL)</li>
-								<li>Tableau and PowerBI</li>
-								<li>Excel</li>
-							</ul>
+							<h2>Мейер Чеслав</h2>
+							<p><span class="image right"></span>Приветствую. Меня зовут Чеслав, и на данный момент я обучаюсь по специальности Data Science. До этого обучался анализу данных, БИ-аналитике, так что основной опыт имею в данной сфере. В процессе обучения я работал с разнообразными задачами, включая сегментацию изображений, генерацию описаний к изображениям, обработку текстовых данных и создание моделей генеративных состязательных сетей (GAN). В своем портфолио продемонстрированы некоторые работы, в основном с использованием нейронных сетей. Все работы доступны к просмотру на Гитхабе или Каггле.</p>
+							<p><span class="image right"></span>Основной рабочий стек: Python, SQL (PostgreSQL), GIT;<br>
+							Numpy, Pandas, Scikit-learn, Seaborn, Matplotlib;<br>
+							Tensorflow, Keras, AutoML;<br>
+							NLP, ChatGPT, OpenAI, LLM, Fine-tuning LLM, Hugging Face Transformers;<br>
+							Computer Vision, Object Detection, Сегментация изображений;</p>
 							</div>
 					</section>
 
@@ -51,24 +44,23 @@
 						<!-- One -->
 							<section id="one" class="wrapper spotlight style1">
 								<div class="inner">
-									<a class="image"><img src="images/discord.jpg" alt="" /></a>
+									<a class="image"><img src="images/flickr.png" alt="" /></a>
 									<div class="content">
-										<h2 class="major">Discord Participants Survey</h2>
-										<p>For this project, I developed a survey and interviewed 400 Russian-speaking Discord users. After collecting the data, I cleaned and analyzed them using Python.</p>
-										<a href="https://www.kaggle.com/yonkotoshiro/discord-participants-survey" class="special">View Project (Kaggle)</a>
-									</div>
+										<h2 class="major">Image Captioning</h2>
+										<p>В рамках проекта по генерации описаний изображений (Image Captioning) использован датасет Flickr8k для обучения модели, которая создает текстовые описания для изображений. Модель основывается на архитектуре Seq2Seq с предобученной моделью InceptionV3 для извлечения признаков изображений и LSTM для генерации текста. Проект продемонстрировал использование методов обработки изображений и естественного языка для решения задачи генерации описаний</p>
+										<a href="https://www.kaggle.com/code/yonkotoshiro/image-captioning" class="special">Смотреть проект (Kaggle)</a>
+                                        </div>
 								</div>
 							</section>
 
 						<!-- Two -->
 							<section id="two" class="wrapper alt spotlight style2">
 								<div class="inner">
-									<a class="image"><img src="images/dogs.jpg" alt="" /></a>
+									<a class="image"><img src="images/mnist.png" alt="" /></a>
 									<div class="content">
-										<h2 class="major">Dog breeds </h2>
-										<p>For this project, I gathered data for various dog breeds and their characteristics using web scraping, made some cleanup and visualizations. I also made a table in the Tableau for the possibility of searching and comparing according to various criteria.</p>
-										<a href="https://www.kaggle.com/yonkotoshiro/dogs-breed" class="special">View Project (Kaggle)</a>
-										<a href="https://public.tableau.com/app/profile/al.chernyshev/viz/DogBreedsTable/Sheet1" class="special">View Table (Tableau)</a>
+										<h2 class="major">Генерация изображений с использованием DCGAN</h2>
+										<p>В этом проекте использован датасет MNIST Fashion для генерации изображений одежды с помощью модели DCGAN (Deep Convolutional Generative Adversarial Network). Модель состоит из генератора и дискриминатора, обученных на изображениях одежды, с целью создания реалистичных новых образов. Проект продемонстрировал применение генеративных состязательных сетей для синтетической генерации изображений на основе данных о реальных объектах</p>
+										<a href="https://www.kaggle.com/code/yonkotoshiro/dcgans" class="special">Смотреть проект (Kaggle)</a>
 									</div>
 								</div>
 							</section>
@@ -76,12 +68,12 @@
 						<!-- Three -->
 							<section id="three" class="wrapper spotlight style3">
 								<div class="inner">
-									<a class="image"><img src="images/homework.jpg" alt="" /></a>
+									<a class="image"><img src="images/lungs.png" alt="" /></a>
 									<div class="content">
-										<h2 class="major">Prepared Homework Analysis</h2>
-										<p>In this project, I gathered data from Google Trends (search queries in Google for keywords "prepared homework"), processed and analyzed it by summary indicators. There is also a Dash app (although it's not very pretty).</p>
-										<a href="https://www.kaggle.com/yonkotoshiro/google-searches-for-prepared-homework-in-russia" class="special">View Project (Kaggle)</a>
-										<a href="http://lotaristo.pythonanywhere.com/" class="special">View Dashboard (Dash)</a>
+										<h2 class="major">Сегментация изображений легких с использованием U-net</h2>
+										<p>В проекте по сегментации легких использована архитектура U-Net++ для обработки медицинских изображений, с целью выделения и точной сегментации областей легких на рентгеновских снимках. Модель была обучена на датасете с изображениями здоровых легких, что позволило добиться высокой точности в выделении структуры легких. </p>
+										<a href="https://www.kaggle.com/code/yonkotoshiro/lung-segmentaion-using-unet" class="special">Смотреть проект (Kaggle)</a>
+										
 									</div>
 								</div>
 							</section>
@@ -89,73 +81,154 @@
 						<!-- Four -->
 							<section id="four" class="wrapper alt style1">
 								<div class="inner">
-									<h2 class="major">Other Projects</h2>
-									<h3 class="major">Python Projects</h3>
+									<h2 class="major">Другие проекты по машинному обучению</h2>
 									<section class="features">
+                                        <article>
+											<a class="image"><img src="images/autokeras.png" alt="" /></a>
+											<h3 class="major">Использование AutoKeras для классификации текста по категориям</h3>
+											<p>В этом проекте использован AutoKeras для классификации текста по различным категориям на основе текстовых данных. Модель была автоматически настроена для классификации. AutoKeras, благодаря своей автоматизации, позволил быстро оптимизировать гиперпараметры и достичь высоких результатов в задачах классификации естественного языка. Проект продемонстрировал использование AutoML для автоматического создания и настройки модели для работы с текстом.</p>
+											<a href="https://www.kaggle.com/code/yonkotoshiro/intent-analysis-with-autokeras" class="special">Смотреть проект (Kaggle)</a>
+										</article>
+                                        <article>
+											<a class="image"><img src="images/letters.png" alt="" /></a>
+											<h3 class="major">Классификация букв алфавита по изображениям</h3>
+											<p>В проекте была разработана модель для классификации букв английского алфавита на основе изображений букв. Модель была обучена на датасете с изображениями каждой буквы, используя простейшую модель для распознавания и классификации. Проект продемонстрировал применение глубокого обучения для задач оптического распознавания символов (OCR), обеспечивая точную идентификацию букв на изображениях.</p>
+											<a href="https://www.kaggle.com/code/yonkotoshiro/english-alphabet-classification-with-tensorflow" class="special">Смотреть проект (Kaggle)</a>
+										</article>
+                                        <article>
+											<a class="image"><img src="images/dogs3.jpg" alt="" /></a>
+											<h3 class="major">Определение пород собак на EfficientNetV2</h3>
+											<p>В данном проекте использована модель EfficientNetV2 для классификации пород собак на основе изображений. Модель была обучена на датасете с изображениями различных пород собак. Проект продемонстрировал применение глубоких нейронных сетей для решения задач классификации изображений с высокой производительностью и скоростью.</p>
+											<a href="https://www.kaggle.com/code/yonkotoshiro/efficientnetv2" class="special">Смотреть проект (Kaggle)</a>
+										</article>
 										<article>
-											<a class="image"><img src="images/anime.jpg" alt="" /></a>
-											<h3 class="major">Anime Analysis</h3>
-											<p>For this project I picked up a dataset with various anime and analyzed them.</p>
-											<a href="https://www.kaggle.com/yonkotoshiro/anime-analysis-english" class="special">View Project (Kaggle)</a>
+											<a class="image"><img src="images/churn.png" alt="" /></a>
+											<h3 class="major">Предсказание оттока</h3>
+											<p>В данном проекте я использовал различные методы Tensorflow для предсказния оттока клиентов банка (Churn prediction).</p>
+											<a href="https://www.kaggle.com/code/yonkotoshiro/churn-prediction-with-tensorflow" class="special">Смотреть проект (Kaggle)</a>
+										</article>
+									</section>
+
+
+
+
+									<h2 class="major">Проекты, не связанные с машинным обучением</h2>
+									<h3 class="major">Анализ данных</h3>
+									<section class="features">
+                                        <article>
+											<a class="image"><img src="images/discord.jpg" alt="" /></a>
+											<h3 class="major">Опрос участников Discord</h3>
+											<p>Для данного проекта был создан небольшой опросник и было опрошено около 400 русскоговорящих участников приложения. После сбора данных была проведена небольшая очистка в Excel и визуализация в Python, а также был создан дашборд с результатами опроса.</p>
+											<a href="https://www.kaggle.com/yonkotoshiro/discord-participants-survey" class="special">Смотреть проект (Kaggle)</a>
+                                        	<a href="https://app.powerbi.com/view?r=eyJrIjoiNjFiYjBmYTktYzUzOC00NGEyLTgwNmQtYjgxZTg0MWVlNmZhIiwidCI6IjJkYzgwZDhmLTAwZjQtNGIxOS1iZDgzLTkwY2QzMDgwM2E1MSIsImMiOjl9" class="special">Смотреть дашборд</a></article>
+                                        <article>
+											<a class="image"><img src="images/dogs.jpg" alt="" /></a>
+											<h3 class="major">Породы собак </h3>
+											<p>В данном проекте я собрал данные о различных породах собак и их характеристиках, используя web scrapping, очистил и визуализировал в Python. Кроме того, сделал дашборд с возможностью поиска или сортировки по различным характеристикам.</p>
+											<a href="https://www.kaggle.com/yonkotoshiro/dogs-breed" class="special">Смотреть проект (Kaggle)</a>
+											<a href="https://app.powerbi.com/view?r=eyJrIjoiZjVlYjdjY2EtMjMyMy00Mzc2LWEwMmYtZjQ3NmEyNThlYmUxIiwidCI6IjJkYzgwZDhmLTAwZjQtNGIxOS1iZDgzLTkwY2QzMDgwM2E1MSIsImMiOjl9" class="special">Смотреть дашборд</a>
+										</article>
+                                        <article>
+											<a class="image"><img src="images/homework.jpg" alt="" /></a>
+											<h2 class="major">Анализ ГДЗ (Готовые Домашние Задания)</h2>
+											<p>В данном проекте я собрал данные по частоте поиска ГДЗ в Google Trends по различным предметам и классам, обработал и визуализировал по суммарным индикаторам в Python.</p>
+											<a href="https://www.kaggle.com/yonkotoshiro/google-searches-for-prepared-homework-in-russia" class="special">Смотреть проект (Kaggle)</a>
+										</article>
+                                         <article>
+											<a class="image"><img src="images/piechart.jpeg" alt="" /></a>
+											<h3 class="major">Анализ продаж</h3>
+											<p>В данном проекте было сделан анализ продаж различных видов чипсов с разбиением по категориям покупателей.</p>
+											<a href="https://www.kaggle.com/code/yonkotoshiro/chips-sales-analysis-quantium-test-task" class="special">Смотреть проект (Kaggle)</a>
+										</article>
+										<article>
+											<a class="image"><img src="images/avion.jpeg" alt="" /></a>
+											<h3 class="major">Анализ авиарейсов</h3>
+											<p>В данном проекте был проведен анализ авиаперелетов Австралийских авиакомпаний.</p>
+											<a href="https://www.kaggle.com/code/yonkotoshiro/australian-airlines-eda" class="special">Смотреть проект (Kaggle)</a>
 										</article>
 										<article>
 											<a class="image"><img src="images/birth.jpg" alt="" /></a>
-											<h3 class="major">California Birth Rates</h3>
-											<p>In this small project I used a dataset for birth rates in California from 2008 to 2016 by different age groups and made some visualizations (also made a Dash App).</p>
-											<a href="https://www.kaggle.com/yonkotoshiro/california-birth-rates-exploratory-analysis" class="special">View Project (Kaggle)</a>											
-											<a href="https://github.com/Lotaristo/Projects/blob/main/California%20Births%202008-2016" class="special">View Code for Dashboard (GitHub)</a>
-											<a href="https://california-births.herokuapp.com/" class="special">View Dashboard (Dash)</a>
+											<h3 class="major">Частота рождений в Калифорнии</h3>
+											<p>В данном небольшом проекте я использовал датасет с информаций о рождениях в Калифорнии среди различных возрастных групп матерей и попытался провести эксплораторный анализ (также сделал дэшборд в Dash).</p>
+											<a href="https://www.kaggle.com/yonkotoshiro/california-birth-rates-exploratory-analysis" class="special">Смотреть проект (Kaggle)</a>
+											<a href="https://github.com/Lotaristo/Projects/blob/main/California%20Births%202008-2016" class="special">Смотреть код для дэшборда (GitHub)</a>
+										</article>
+
+
+
+
+                                    <h3 class="major">Дашборды</h3>
+									<section class="features">
+                                        <article>
+											<a class="image"><img src="images/sales.jpeg" alt="" /></a>
+											<h3 class="major">Продажи</h3>
+											<p>Дашборд по продажам (Contoso) с разбиением по магазинам и характеристикой покупателей.</p>
+											<a href="https://app.powerbi.com/view?r=eyJrIjoiYWEwYTI4NzQtNjEwMC00ZWQ5LTk3NzEtMTE5NTQyNDUwZTk3IiwidCI6IjJkYzgwZDhmLTAwZjQtNGIxOS1iZDgzLTkwY2QzMDgwM2E1MSIsImMiOjl9" class="special">Смотреть дэшборд</a>
+										</article>
+                                        <article>
+											<a class="image"><img src="images/accounting.jpeg" alt="" /></a>
+											<h3 class="major">Финансовая отчетность</h3>
+											<p>Дашборд, специализированный на показе различной финансовой отчетности.</p>
+											<a href="https://app.powerbi.com/view?r=eyJrIjoiNGU3NDNiYjUtZGMyMC00MzEzLWE1ZmItMjRlY2I0NTU5ZDBlIiwidCI6IjJkYzgwZDhmLTAwZjQtNGIxOS1iZDgzLTkwY2QzMDgwM2E1MSIsImMiOjl9" class="special">Смотреть дэшборд</a>
+										</article>
+                                        <article>
+											<a class="image"><img src="images/logistic.jpeg" alt="" /></a>
+											<h3 class="major">Логистика</h3>
+											<p>Дашборд, показывающий логистическую деятельность фирмы с учетом контроля машин.</p>
+											<a href="https://app.powerbi.com/view?r=eyJrIjoiYWNkMWZlZmEtMmI4MC00MDVhLTlkZjgtN2E1ZmYzNmYwNTY1IiwidCI6IjJkYzgwZDhmLTAwZjQtNGIxOS1iZDgzLTkwY2QzMDgwM2E1MSIsImMiOjl9" class="special">Смотреть дэшборд</a>
+										</article>
+                                        <article>
+											<a class="image"><img src="images/fabric.jpeg" alt="" /></a>
+											<h3 class="major">Производство</h3>
+											<p>Дашборд, показывающий деятельность предприятия по производству пеноплекса и контроль склада.</p>
+											<a href="https://app.powerbi.com/view?r=eyJrIjoiNWU4NDk5NjQtNjUzOS00ZWMwLThmM2YtMTZjNTA2ZjFhOWJiIiwidCI6IjJkYzgwZDhmLTAwZjQtNGIxOS1iZDgzLTkwY2QzMDgwM2E1MSIsImMiOjl9" class="special">Смотреть дэшборд</a>
+										</article>
+
+										<article>
+											<a class="image"><img src="images/alcohol.jpg" alt="" /></a>
+											<h3 class="major">Потребление алкоголя в России </h3>
+											<p>Дашборд по потреблению алкогольной продукции в Росси в период с 1998 по 2016 годы.</p>
+											<a href="https://public.tableau.com/app/profile/al.chernyshev/viz/AveragealcoholconsumptioninRussiafrom1998to2016/Dashboard1" class="special">Смотреть дэшборд (Tableau)</a>
+										</article>
+										<article>
+											<a class="image"><img src="images/life.jpg" alt="" /></a>
+											<h3 class="major">Ожидаемая продолжительность жизни</h3>
+											<p>Дэшборд по ожидаемой продолжительность жизни в различных странах с 1990 по 2019 годы.</p>
+											<a href="https://public.tableau.com/app/profile/al.chernyshev/viz/HumanLifeExpectancy/Dashboard1" class="special">Смотреть дэшборд (Tableau)</a>
 										</article>
 									</section>
-									<h3 class="major">SQL projects</h3>
+
+                                    <h3 class="major">Работы с SQL</h3>
 									<section class="features">
 										<article>
 											<a class="image"><img src="images/trucks.jpg" alt="" /></a>
 											<h3 class="major">Lorenzo Shipping</h3>
-											<p>Creating, processing and visualizing data for a fictional shipping company Lorenzo.</p>
-											<a href="https://github.com/Lotaristo/Projects/blob/main/lorenzo2.sql" class="special">View Code (GitHub)</a>
-											<a href="https://public.tableau.com/app/profile/al.chernyshev/viz/LorenzoShippingDashboard/Dashboard1" class="special">View Dashboard (Tableau)</a>
+											<p>Создание, обработка и визуализация данных по транспортной компании Лоренцо.</p>
+											<a href="https://github.com/Lotaristo/Projects/blob/main/lorenzo2.sql" class="special">Смотреть код проекта (GitHub)</a>
+											<a href="https://public.tableau.com/app/profile/al.chernyshev/viz/LorenzoShippingDashboard/Dashboard1" class="special">Смотреть дэшборд (Tableau)</a>
 										</article>
 										<article>
 											<a class="image"><img src="images/superstore.jpg" alt="" /></a>
 											<h3 class="major">Superstore</h3>
-											<p>Some analysis (and visualizations in PowerBI) for a well-know Superstore dataset.</p>
-											<a href="https://github.com/Lotaristo/Projects/blob/main/shop.sql" class="special">View Project (GitHub)</a>
-											<a href="https://github.com/Lotaristo/Projects/blob/main/shop.pbix" class="special">PowerBI file (GitHub)</a>
+											<p>Небольшой анализ датасета Superstore.</p>
+											<a href="https://github.com/Lotaristo/Projects/blob/main/shop.sql" class="special">Смотреть проект (GitHub)</a>
 										</article>
-	
-									</section>
-									<h3 class="major">Tableau and Dash Visualizations</h3>
-									<section class="features">
-										<article>
-											<a class="image"><img src="images/crimes.jpg" alt="" /></a>
-											<h3 class="major">Russian Crimes</h3>
-											<p>A dashboard for various types of crimes in Russia from 2003 to 2020 created with Dash.</p>
-											<a href="https://github.com/Lotaristo/Projects/blob/main/Russan%20Crimes%20Dashboard" class="special">View Code (GitHub)</a>
-											<a href="https://yonko-crimes.herokuapp.com" class="special">View Dashboard (Dash)</a>
-										</article>
-										<article>
-											<a class="image"><img src="images/alcohol.jpg" alt="" /></a>
-											<h3 class="major">Alcohol Consumption in Russia</h3>
-											<p>A dashboard for average alcohol consumption in Russia from 1998 to 2016.</p>
-											<a href="https://public.tableau.com/app/profile/al.chernyshev/viz/AveragealcoholconsumptioninRussiafrom1998to2016/Dashboard1" class="special">View Dashboard (Tableau)</a>
-										</article>
-										<article>
-											<a class="image"><img src="images/life.jpg" alt="" /></a>
-											<h3 class="major">Human Life Expectancy</h3>
-											<p>A dashboard for human life expectancy for different countries from 1990 to 2019.</p>
-											<a href="https://public.tableau.com/app/profile/al.chernyshev/viz/HumanLifeExpectancy/Dashboard1" class="special">View Dashboard (Tableau)</a>
-										</article>										
-									</section>
-									<h3 class="major">Other</h3>
+										</section>
+
+									<h3 class="major">Работа с R</h3>
 									<section class="features">
 										<article>
 											<a class="image"><img src="images/fitness.jpg" alt="" /></a>
 											<h3 class="major">Bellabeat Case Study</h3>
-											<p>That was my first project as a case study for Google Data Analyst sertificate - here I made some analysis using R for a fitness bracelets company Bellabeat.</p>
-											<a href="https://www.kaggle.com/yonkotoshiro/bellabeat-case-study" class="special">View Project (Kaggle)</a>
+											<p>Мой первый проект для курса Google Data Analyst - здесь я провел анализ компанию Bellabeat используя R.</p>
+											<a href="https://www.kaggle.com/yonkotoshiro/bellabeat-case-study" class="special">Смотреть проект (Kaggle)</a>
 										</article>
 									</section>
+
+									
+
+
+									
 								
 								</div>
 							</section>
@@ -165,13 +238,11 @@
 				<!-- Footer -->
 					<section id="footer">
 						<div class="inner">
-							<h2 class="major">Get in touch</h2>
-							<p>Feel free to contact me.</p>
+							<h2 class="major">Контакты</h2>
 							
 							<ul class="contact">
 								<li class="icon solid fa-envelope"><a href="mailto:lotarist@gmail.com">Email</a></li>
 								<li class="icon brands fa-telegram"><a href="https://t.me/Yonko_Toshiro">Telegram</a></li>
-								<li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/alexey-chernyshev-1692174b/">LinkedIn</a></li>
 								<li class="icon brands fa-github"><a href="https://github.com/Lotaristo">GitHub</a></li>
 								<li class="icon brands fa-kaggle"><a href="https://www.kaggle.com/yonkotoshiro">Kaggle</a></li>
 							</ul>
